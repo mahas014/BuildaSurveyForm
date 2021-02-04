@@ -1,0 +1,82 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<link rel="stylesheet" href="src/styles.css">
+<html>
+
+<Header>
+<h1 id="title"> Form Pendaftaran Anggota Baru </h1>
+</header> 
+
+<Body> 
+<p id="description">
+ Isilah Form Ini Dengan Baik Dan Benar
+</p>
+
+<form id="survey-form">
+
+<div class="input-headings">
+  
+  <label for="name" id="name-label"> Nama </label>
+  <input id="name" type="text" name="name" placeholder="Tulis menggunakan huruf kapital" class="form-inputs" required> </input>   
+<br>        
+  <label for="email" id="email-label"> Email </label>
+  <input id="email" type="email" name="email" placeholder="Masukkan email disini" class="form-inputs" required> </input>
+<br>
+  <label for="number" id="number-label"> Umur </label>
+  <input id="number" type="number" name="number" min="18" max="100" placeholder="18" class="form-inputs" required> </input>
+<br>
+
+<label for="dropdown" id="model" style="width: 90vw;"> Mendaftar Sebagai: </label>
+  <select id="dropdown">
+    <option value = "Pengurus"> Anggota </option>
+    <option value = "Anggota"> Pengurus </option>
+  </select>
+<br>
+<br>
+
+<label for="pendidikan" id="pendidikan"> <b> Pendidikan:</b> </label>
+<br>
+  <input id="pendidikan" type="radio" name="color" value="SMA">
+  <label for="pendidikan"> SMA </label>
+<br>
+  <input id="pendidikan" type="radio" name="color" value="Kuliah">
+  <label for="pendidikan"> Kuliah </label>
+<br>
+<br>
+                           
+<label for="devisi"> <b> Devisi </b></label>
+ <br>
+
+  <input id="checkbox" type="checkbox" name="devisi" value="autopilot">
+  <label for="checkbox"> Voli</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="devisi" value="dual_motor">
+  <label for="checkbox"> Badminton</label>         
+<br>
+<br>
+
+<label id="textarea"> Tambahkan Lainnya: </label>
+<br>
+<textarea id="textarea" name"instructions" rows="5" cols="59.5">
+</textarea>
+<br>
+  
+<input id="submit" type="submit" value="Daftar" class="submit-button">
+
+  </div>
+  
+</form>
+
+</body>
+
+
+</html>
